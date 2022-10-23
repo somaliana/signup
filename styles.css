@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+}
+main {
+    display: flex;
+    @font-face {
+        font-family: norse ;
+        src: url("norse.otf");
+    }
+    
+
+    
+}
+.left-part {
+    background-image: url("leaf.avif");
+    width: 50vw;
+    height: 100vh;
+    float: left;
+    font-family: norse,sans-serif;
+    
+
+
+}
+.right-part {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: norse,sans-serif;
+    font-weight: bold;
+    padding-left: 10vw;
+    background-color: rgb(215, 243, 243);
+
+}
+p:nth-child(2) {
+    margin-top: 2vh;
+}
+section:nth-child(2) {
+    
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+
+}
+input {
+    display:block;
+    margin: 1vh;
+
+}
+fieldset:first-child {
+    float:right;
+
+}
+fieldset:last-child {
+    float:left;
+}
+form {
+    display:flex;
+}
